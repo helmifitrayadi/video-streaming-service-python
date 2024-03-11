@@ -120,7 +120,7 @@ class User:
                 elif new_plan == "Premium Plan":
                     total = 200_000
                     return total
-                
+  
 # create object for user class
 user_2 = User("Reza", 24, "standard Plan")
 
@@ -131,4 +131,4 @@ user_2.check_benefit()
 user_2.check_plan(user_2.username)
 
 # upgrade plan
-user_2.upgrade_plan(user_2.current_plan, "Premium Plan")
+print(user_2.upgrade_plan(user_2.current_plan, "Premium Plan"))
