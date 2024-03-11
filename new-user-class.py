@@ -1,6 +1,3 @@
-from tabulate import tabulate
-from main import data
-
 class NewUser:
 
     check_list = []
